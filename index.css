@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#header {
+  background-color: pink;
+  height: 70px;
+}
+
+.container {
+  display: flex;
+  flex-grow: 1;
+}
+
+#leftSide {
+  background-color: aqua;
+  width: auto;
+}
+
+#center {
+  background-color: lightyellow;
+  flex-grow: 1;
+}
+
+#rightSide {
+  background-color: aqua;
+  width: 100px;
+}
+
+#footer {
+  height: auto;
+}
